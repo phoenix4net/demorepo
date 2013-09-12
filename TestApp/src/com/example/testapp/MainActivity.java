@@ -24,6 +24,8 @@ public class MainActivity extends Activity {
 		ImageView mImgView1 = (ImageView)findViewById(R.id.imageView);
 		Bitmap bmp = BitmapFactory.decodeFile(f.getAbsolutePath());
 		mImgView1.setImageBitmap(bmp);
+		
+		// new commite to test ingore feature.
 	}
 
 	
