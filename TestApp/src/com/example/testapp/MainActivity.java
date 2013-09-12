@@ -12,6 +12,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		// this is added after importing from git and than in eclipse
+		
+		// this is added after one commite in local
 	}
 
 	
