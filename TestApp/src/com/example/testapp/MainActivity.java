@@ -23,7 +23,10 @@ public class MainActivity extends Activity {
 		File f = new File("/mnt/sdcard/url.jpg");
 		ImageView mImgView1 = (ImageView)findViewById(R.id.imageView);
 		Bitmap bmp = BitmapFactory.decodeFile(f.getAbsolutePath());
-		mImgView1.setImageBitmap(bmp);
+		/*Edited by Aalap*/
+		//mImgView1.setImageBitmap(bmp);
+		
+		
 		
 		// new commite to test ingore feature.
 	}
