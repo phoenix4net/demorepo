@@ -22,6 +22,22 @@ public class MainActivity extends Activity {
 		// this is added after one commite in local
 		
 		Buffer buffer = new Bundle();
+		sdfgsdfgsfg
+		sdfg
+		sdfg
+		sf
+		gs
+		dfgs
+		dfg
+		sdfg
+		fgd
+		asdf
+		asdf
+		adsf
+		asd
+		fas
+		df
+		sadf
 		ImageView mImgView1 = (ImageView)findViewById(R.id.imageView);
 		Bitmap bmp = BitmapFactory.decodeFile(f.getAbsolutePath());
 		/*Edited by Aalap*/
