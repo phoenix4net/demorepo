@@ -1,6 +1,7 @@
 package com.example.testapp;
 
 import java.io.File;
+import java.nio.Buffer;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -20,7 +21,7 @@ public class MainActivity extends Activity {
 		
 		// this is added after one commite in local
 		
-		File fileManger = new File("/mnt/sdcard/url.jpg");
+		Buffer buffer = new Bundle();
 		ImageView mImgView1 = (ImageView)findViewById(R.id.imageView);
 		Bitmap bmp = BitmapFactory.decodeFile(f.getAbsolutePath());
 		/*Edited by Aalap*/
