@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 		/*Edited by Aalap*/
 		//mImgView1.setImageBitmap(bmp);
 		
-		
+		// tis is test
 		
 		// new commite to test ingore feature.
 	}
