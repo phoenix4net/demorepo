@@ -1,6 +1,8 @@
 package com.example.testapp;
 
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.nio.Buffer;
 
 import android.app.Activity;
@@ -21,7 +23,14 @@ public class MainActivity extends Activity {
 		
 		// this is added after one commite in local
 		
-		Buffer buffer = new Bundle();
+		InputStream io = new InputStream() {
+			
+			@Override
+			public int read() throws IOException {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		};
 		ImageView mImgView1 = (ImageView)findViewById(R.id.imageView);
 		Bitmap bmp = BitmapFactory.decodeFile(f.getAbsolutePath());
 		/*Edited by Aalap*/
